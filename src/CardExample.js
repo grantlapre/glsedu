@@ -1,5 +1,4 @@
 import React from 'react';
-import { Outlet, Link } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import cs1 from './cs1.png';
@@ -20,7 +19,7 @@ function CardExample() {
         <Card.Text>
         Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.
         </Card.Text>
-        <nav><Link to="/cybs">CS articles & news</Link></nav>
+
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
@@ -37,7 +36,7 @@ powers and sanctions but also with the laws that create money laundering and ter
 financing offenses, plus enforcement power that provides for freezing, seizing and
 confiscation of the proceeds of crime and terrorist funding. 
         </Card.Text>
-        <nav><Link to="/aml">AML/CFT articles & news</Link></nav>
+
         </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
@@ -47,7 +46,7 @@ confiscation of the proceeds of crime and terrorist funding.
         <Card.Text>
         It can include fraudulent sales of goods and services, investment scams, phishing, and romance scams, among others. Identity theft: This occurs when someone uses another person's identity to obtain goods, services, or financial gain.
         </Card.Text>
-        <nav><Link to="/fraf">Fraud&FinCrime articles & news</Link></nav>
+
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
@@ -57,7 +56,7 @@ confiscation of the proceeds of crime and terrorist funding.
         <Card.Text>
         Virtualization is a technology that allows users to create virtual servers, networks, and storage in the cloud. Cloud computing is a more comprehensive idea that refers to delivering numerous services, including computing resources ...e.g., virtual machines..., storage, databases, and applications, over the Internet.
         </Card.Text>
-        <nav><Link to="/clov">C&V articles & news</Link></nav>
+
       </Card.Body>
     </Card>
     <Outlet />

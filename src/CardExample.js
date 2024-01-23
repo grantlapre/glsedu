@@ -59,7 +59,7 @@ confiscation of the proceeds of crime and terrorist funding.
 
       </Card.Body>
     </Card>
-    <Outlet />
+
   </Container>
 
 );

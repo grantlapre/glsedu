@@ -36,7 +36,7 @@ const Posts = () => {
         To your safety`
         
         ,
-        author: "Lawrie Student CSU - Masters of Cyber Security",
+        author: "Lawrie Student CSU - Masters of Cyber Security - 24Jan24",
         blogImg:
             cs1,
         },

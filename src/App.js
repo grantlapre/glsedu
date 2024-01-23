@@ -7,7 +7,7 @@ import {
 
 import am from "./pages/am";
 import ff from "./pages/ff";
-import cv from "./pages/cv";
+import clv from "./pages/clv";
 import Home from "./pages/Home";
 import cs from "./pages/cs";
 import MyButton from "./components/MyButton";
@@ -24,20 +24,20 @@ function App () {
 
   <Router>
     <MyButton to="" />
-    <MyButton to="cs"/>
-    <MyButton to="am" />
-    <MyButton to="ff" />
-    <MyButton to="cv" />
+    <MyButton to="cys"/>
+    <MyButton to="aml" />
+    <MyButton to="frf" />
+    <MyButton to="clvi" />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/cs"
+            <Route path="/cys"
                 element={<cs />} />
-            <Route path="/am"
+            <Route path="/aml"
                 element={<am />} />
-            <Route path="/ff"
+            <Route path="/frf"
                 element={<ff />} />
-            <Route path="/cv"
-                element={<cv />} />
+            <Route path="/clvi"
+                element={<clv />} />
         </Routes>
     </Router>
 </div>

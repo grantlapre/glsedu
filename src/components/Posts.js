@@ -1,6 +1,7 @@
 import React from "react";
 import "./Post.css";
 import Post from "./Post";
+import cs1 from '../cs1.png';
 
 
 
@@ -36,8 +37,8 @@ const Posts = () => {
         
         ,
         author: "Lawrie Student CSU - Masters of Cyber Security",
-        imgUrl:
-            "https://www.google.com/imgres?imgurl=https%3A%2F%2Fdcssproject.net%2Fwp-content%2Fuploads%2Fsites%2F24%2F2015%2F03%2F10_ANT.jpg&tbnid=B4NdqEi2Mmsh9M&vet=12ahUKEwjg65259vODAxVTrGMGHZBrDUcQMygKegQIARBh..i&imgrefurl=https%3A%2F%2Fdcssproject.net%2Fant-catalogue%2Findex.html&docid=feYJ7HsvrUSjYM&w=2267&h=493&q=ant%20catalogue%20nsa&ved=2ahUKEwjg65259vODAxVTrGMGHZBrDUcQMygKegQIARBh"
+        blogImg:
+            cs1,
         },
         {
         title: "Data Structure ",
@@ -51,7 +52,7 @@ const Posts = () => {
         can be simply seen to follow LIFO(Last In
         First Out)/FILO(First In Last Out) order.`,
         author: "Suresh Kr",
-        imgUrl:
+        blogImg:
             "https://media.geeksforgeeks.org/img-practice/banner/coa-gate-2022-thumbnail.png",
         },
         {
@@ -64,7 +65,7 @@ const Posts = () => {
         executed upon in order to get the expected
         results. `,
         author: "Monu Kr",
-        imgUrl:
+        blogImg:
             "https://media.geeksforgeeks.org/img-practice/banner/google-test-series-thumbnail.png",
         },
         {

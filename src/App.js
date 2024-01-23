@@ -11,7 +11,7 @@ function App () {
 
     <div className="main-container">
     <h1 className="main-heading">
-      GLSDefi Blog "Lawries take on Cyber Security" 
+      GLSDefi Blog "Cyber Security" 
     </h1>
     <Posts />
   </div>

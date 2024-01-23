@@ -20,3 +20,21 @@ const ExampleToast = ({ children }) => {
         <Toast.Body>{children}</Toast.Body>
       </Toast>
     </>
+  );
+};
+
+const App = () => (
+  <Container className="p-3">
+    <Jumbotron>
+      <h1 className="header">Welcome To React-Bootstrap</h1>
+      <ExampleToast>
+        We now have Toasts
+        <span role="img" aria-label="tada">
+          🎉
+        </span>
+      </ExampleToast>
+    </Jumbotron>
+  </Container>
+);
+
+export default App;

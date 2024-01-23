@@ -18,7 +18,7 @@ import './App.css';
 
 
 
-function App = () => (
+function App () {
   return (
    <div>
 
@@ -42,6 +42,6 @@ function App = () => (
     </Router>
 </div>
   )
-);
+  };
 
 export default App;

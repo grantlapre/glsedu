@@ -3,6 +3,8 @@ import "./Post.css";
 import Post from "./Post";
 import cs1 from '../cs1.png';
 
+import ff1 from '../cs1.png';
+
 
 
 const Posts = () => {
@@ -45,7 +47,7 @@ const Posts = () => {
         body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
         author: "Lawrie Student CSU - Masters of Cyber Security",
         blogImg:
-            "https://media.geeksforgeeks.org/img-practice/banner/coa-gate-2022-thumbnail.png",
+            ff1,
         },
         {
         title: "Algorithm",

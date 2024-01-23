@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/glsedu/static/css/main.08b932aa.css",
-    "main.js": "/glsedu/static/js/main.2e86e119.js",
+    "main.js": "/glsedu/static/js/main.9d55e9ad.js",
     "index.html": "/glsedu/index.html",
     "main.08b932aa.css.map": "/glsedu/static/css/main.08b932aa.css.map",
-    "main.2e86e119.js.map": "/glsedu/static/js/main.2e86e119.js.map"
+    "main.9d55e9ad.js.map": "/glsedu/static/js/main.9d55e9ad.js.map"
   },
   "entrypoints": [
     "static/css/main.08b932aa.css",
-    "static/js/main.2e86e119.js"
+    "static/js/main.9d55e9ad.js"
   ]
 }

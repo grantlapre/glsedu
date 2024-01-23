@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import Card from 'react-bootstrap/Card';
 import Toast from 'react-bootstrap/Toast';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
@@ -25,7 +25,7 @@ const ExampleToast = ({ children }) => {
 
 const App = () => (
   <Container className="p-3">
-    <Jumbotron>
+    <Card>
       <h1 className="header">Welcome To React-Bootstrap</h1>
       <ExampleToast>
         We now have Toasts
@@ -33,7 +33,7 @@ const App = () => (
           🎉
         </span>
       </ExampleToast>
-    </Jumbotron>
+    </Card>
   </Container>
 );
 

@@ -5,11 +5,12 @@ import {
   Route
 } from "react-router-dom";
 
-import am from "./pages/am";
-import ff from "./pages/ff";
-import clv from "./pages/clv";
+
 import Home from "./pages/Home";
-import cs from "./pages/cs";
+import cybs from "./pages/cybs";
+import antm from "./pages/antm";
+import fraf from "./pages/fraf";
+import clov from "./pages/clov";
 import MyButton from "./components/MyButton";
 
 
@@ -31,13 +32,13 @@ function App () {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cys"
-                element={<cs />} />
+                element={<cybs />} />
             <Route path="/aml"
-                element={<am />} />
+                element={<antm />} />
             <Route path="/frf"
-                element={<ff />} />
+                element={<fraf />} />
             <Route path="/clvi"
-                element={<clv />} />
+                element={<clov />} />
         </Routes>
     </Router>
 </div>

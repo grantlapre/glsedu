@@ -1,7 +1,7 @@
 import React from 'react';
 
-//am.js
-const am = () => {
+//antm.js
+const antm = () => {
     return (
         <div className="aml">
             <h1>Lawries take on AML/CFT</h1>
@@ -9,4 +9,4 @@ const am = () => {
     )
 }
  
-export default am;
+export default antm;

@@ -1,7 +1,7 @@
 import React from 'react';
 
-//ff.js
-const ff = () => {
+//fraf.js
+const fraf = () => {
     return (
         <div className="fraud">
             <h1>Lawries take on Fraud & Financial Crime</h1>
@@ -9,4 +9,4 @@ const ff = () => {
     )
 }
  
-export default ff;
+export default fraf;

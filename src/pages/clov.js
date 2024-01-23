@@ -1,7 +1,7 @@
 import React from 'react';
 
-//cv.js
-const clv = () => {
+//clov.js
+const clov = () => {
     return (
         <div className="cloud">
             <h1>Lawries take on Cloud & Virtualisation</h1>
@@ -9,4 +9,4 @@ const clv = () => {
     )
 }
  
-export default clv;
+export default clov;

@@ -1,7 +1,7 @@
 import React from 'react';
 
-//cs.js
-const cs = () => {
+//cybs.js
+const cybs = () => {
     return (
         <div className="cybersecurity">
             <h1>Lawries take on Cyber Security</h1>
@@ -9,4 +9,4 @@ const cs = () => {
     )
 }
  
-export default cs;
+export default cybs;

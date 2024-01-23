@@ -32,12 +32,12 @@ const Posts = () => {
         
         Share your thoughts below on how we can better protect ourselves in this digital age from such intrusions. Let's learn from each other because together we stand stronger against such invisible threats!
         
-        To your safety,
+        To your safety`
         
         ,
-        author: "Lawrie, Student CSU - Masters of Cyber Security",
+        author: "Lawrie Student CSU - Masters of Cyber Security",
         imgUrl:
-            "https://www.google.com/imgres?imgurl=https%3A%2F%2Fdcssproject.net%2Fwp-content%2Fuploads%2Fsites%2F24%2F2015%2F03%2F10_ANT.jpg&tbnid=B4NdqEi2Mmsh9M&vet=12ahUKEwjg65259vODAxVTrGMGHZBrDUcQMygKegQIARBh..i&imgrefurl=https%3A%2F%2Fdcssproject.net%2Fant-catalogue%2Findex.html&docid=feYJ7HsvrUSjYM&w=2267&h=493&q=ant%20catalogue%20nsa&ved=2ahUKEwjg65259vODAxVTrGMGHZBrDUcQMygKegQIARBh",
+            "https://www.google.com/imgres?imgurl=https%3A%2F%2Fdcssproject.net%2Fwp-content%2Fuploads%2Fsites%2F24%2F2015%2F03%2F10_ANT.jpg&tbnid=B4NdqEi2Mmsh9M&vet=12ahUKEwjg65259vODAxVTrGMGHZBrDUcQMygKegQIARBh..i&imgrefurl=https%3A%2F%2Fdcssproject.net%2Fant-catalogue%2Findex.html&docid=feYJ7HsvrUSjYM&w=2267&h=493&q=ant%20catalogue%20nsa&ved=2ahUKEwjg65259vODAxVTrGMGHZBrDUcQMygKegQIARBh"
         },
         {
         title: "Data Structure ",

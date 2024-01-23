@@ -12,6 +12,7 @@ import antm from "./pages/antm";
 import fraf from "./pages/fraf";
 import clov from "./pages/clov";
 import MyButton from "./components/MyButton";
+import CardExample from './CardExample';
 
 
 
@@ -22,18 +23,18 @@ import './App.css';
 function App () {
   return (
    <div>
-
+<CardExample />
   <Router>
     <MyButton to="" />
     <MyButton to="cybs"/>
-    <MyButton to="aml" />
+    <MyButton to="antm" />
     <MyButton to="fraf" />
     <MyButton to="clvi" />
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cybs"
                 element={<cybs />} />
-            <Route path="/aml"
+            <Route path="/antm"
                 element={<antm />} />
             <Route path="/fraf"
                 element={<fraf />} />

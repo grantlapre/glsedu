@@ -9,18 +9,35 @@ const Posts = () => {
 
     const blogPosts = [
         {
-        title: "JAVASCRIPT",
-        body: `JavaScript is the world most popular
-        lightweight, interpreted compiled programming
-        language. It is also known as scripting
-        language for web pages. It is well-known for
-        the development of web pages, many non-browser
-        environments also use it. JavaScript can be
-        used for Client-side developments as well as
-        Server-side developments`,
-        author: "Nishant Singh ",
+        title: "The Dark Side of Digital Age: Cyber Spying and Its Tools",
+        body: ` 
+
+        In the labyrinthine world of digital technology, where data is the new gold and safeguarding it is akin to a modern-day crusade, cyber spying has emerged as a chilling reality. This shadowy practice isn't just confined to rogue hackers in dimly lit basements; even governments and security companies are implicated, using sophisticated tools that blur the line between protection and invasion.
+        
+        Imagine an invisible intruder slipping into your device, unnoticed like a phantom. This is no ordinary trespasser but a piece of malicious malware or spyware installed by cybercriminals or even state-sponsored actors. It's akin to finding out that your home has been bugged - only this time, it's your digital abode under surveillance.
+        
+        One such notorious toolset was revealed in the leaked 'Ant Catalog' from the National Security Agency (NSA) around 2008. This catalog reads like an Orwellian nightmare with devices that could be straight out of a James Bond movie. 
+        
+        Among these tools is something known as a passive RF (Radio Frequency), retro ultra-high frequency reflector - tiny electronic devices requiring only microamps of power. They sit silently without radiating any RF energy, waiting for their cue like sleeper agents in enemy territory.
+        
+        Then there are audio-based RF retro-reflectors that provide room audio from targeted spaces using radar and basic post-processing. Imagine having an unseen ear in your room listening to every word you utter! To make this work, someone needs to send a focused beam of radio frequency energy targeted at that retro-reflector from some distance away – much like shining a spotlight on an actor on stage while sitting hidden amidst the audience.
+        
+        The chilling efficiency of these tools underscores how our private spaces have become porous in this digital age where boundaries are increasingly blurred. But awareness can be our first line of defense against such intrusions.
+        
+        It’s essential to keep your devices updated with the latest security patches and be cautious about the apps you install. Be wary of unsolicited emails or messages containing links, as these could be phishing attempts to install spyware on your device.
+        
+        Remember, in this digital age, vigilance is not just a virtue but a necessity. The battle against cyber spying is an ongoing one, and every user needs to be an active participant. It's like being part of a neighborhood watch - only this time, the neighborhood is online.
+        
+        So if you are alone in your room thinking you're indeed alone, remember there might be unseen ears listening. This isn't meant to scare you but to make you aware because awareness is the first step towards prevention.
+        
+        Share your thoughts below on how we can better protect ourselves in this digital age from such intrusions. Let's learn from each other because together we stand stronger against such invisible threats!
+        
+        To your safety,
+        
+        ,
+        author: "Lawrie, Student CSU - Masters of Cyber Security",
         imgUrl:
-            "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
+            "https://www.google.com/imgres?imgurl=https%3A%2F%2Fdcssproject.net%2Fwp-content%2Fuploads%2Fsites%2F24%2F2015%2F03%2F10_ANT.jpg&tbnid=B4NdqEi2Mmsh9M&vet=12ahUKEwjg65259vODAxVTrGMGHZBrDUcQMygKegQIARBh..i&imgrefurl=https%3A%2F%2Fdcssproject.net%2Fant-catalogue%2Findex.html&docid=feYJ7HsvrUSjYM&w=2267&h=493&q=ant%20catalogue%20nsa&ved=2ahUKEwjg65259vODAxVTrGMGHZBrDUcQMygKegQIARBh",
         },
         {
         title: "Data Structure ",

@@ -11,7 +11,7 @@ function App () {
 
     <div className="main-container">
     <h1 className="main-heading">
-      Blog App using React Js 
+      GLSDefi Blog "Lawries take on Cyber Security" 
     </h1>
     <Posts />
   </div>

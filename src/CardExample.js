@@ -7,7 +7,8 @@ import Button from 'react-bootstrap/Button';
 import './App.css';
 
 
-const cards = () => (
+function CardExample() {
+  return (
   <Container className="p-3">
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
@@ -22,5 +23,6 @@ const cards = () => (
     </Card>
   </Container>
 );
+  }
 
-export default cards;
+export default CardExample;

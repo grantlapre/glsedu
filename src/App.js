@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
 
-import cards from './cards';
+import CardExample from './CardExample';
 
 import './App.css';
 
 
 const App = () => (
-  <cards/>
+  <CardExample />
 );
 
 export default App;

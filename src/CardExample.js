@@ -38,6 +38,7 @@ financing offenses, plus enforcement power that provides for freezing, seizing a
 confiscation of the proceeds of crime and terrorist funding. 
         </Card.Text>
         <nav><Link to="/aml">AML/CFT articles & news</Link></nav>
+        </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={ff1} width="180" height="100" />

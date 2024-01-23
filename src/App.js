@@ -1,18 +1,14 @@
 import React from 'react';
 
-import {
-  BrowserRouter as Router, Routes,
-  Route
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
-import Home from "./pages/Home";
+import homep from "./pages/homep";
 import cybs from "./pages/cybs";
 import antm from "./pages/antm";
 import fraf from "./pages/fraf";
 import clov from "./pages/clov";
 import MyButton from "./components/MyButton";
-import CardExample from './CardExample';
 
 
 
@@ -22,27 +18,27 @@ import './App.css';
 
 function App () {
   return (
-   <div>
-<CardExample />
-  <Router>
+
+
+  <BrowserRouter>
     <MyButton to="" />
-    <MyButton to="cybs"/>
-    <MyButton to="antm" />
-    <MyButton to="fraf" />
-    <MyButton to="clvi" />
+    <MyButton to="cybse"/>
+    <MyButton to="antmo" />
+    <MyButton to="frafi" />
+    <MyButton to="clvir" />
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cybs"
+            <Route path="/" element={<homep />} />
+            <Route path="cybse"
                 element={<cybs />} />
-            <Route path="/antm"
+            <Route path="antmo"
                 element={<antm />} />
-            <Route path="/fraf"
+            <Route path="frafi"
                 element={<fraf />} />
-            <Route path="/clvi"
+            <Route path="clvir"
                 element={<clov />} />
         </Routes>
-    </Router>
-</div>
+    </BrowserRouter>
+
   )
   };
 

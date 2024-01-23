@@ -25,17 +25,17 @@ function App () {
 
   <Router>
     <MyButton to="" />
-    <MyButton to="cys"/>
+    <MyButton to="cybs"/>
     <MyButton to="aml" />
-    <MyButton to="frf" />
+    <MyButton to="fraf" />
     <MyButton to="clvi" />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/cys"
+            <Route path="/cybs"
                 element={<cybs />} />
             <Route path="/aml"
                 element={<antm />} />
-            <Route path="/frf"
+            <Route path="/fraf"
                 element={<fraf />} />
             <Route path="/clvi"
                 element={<clov />} />

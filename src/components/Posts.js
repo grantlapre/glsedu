@@ -71,8 +71,34 @@ const Posts = () => {
             bd1,
         },
         {
-        title: "Algorithm",
-        body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        title: "Australian Cyber Crime Laws: Navigating the Digital Battlefield",
+        body: `Imagine navigating a battlefield. The air is thick with tension, your every move could be the difference between victory and defeat. Now, replace this physical battlefield with a digital one, where hackers are the enemy soldiers and data is the prized possession. This is what it feels like to operate in today's cyber landscape.
+
+        In Australia, as in many other countries, there are stringent laws designed to protect individuals and organizations from these virtual threats. These laws act as our protective armor on this digital battlefield - shielding us from unauthorised access or modification of our precious data.
+        
+        One such legislation is the Criminal Code Act 1995 (Cth) ('Criminal Code'). Under section 478.1 of this Act, hacking is considered a criminal offence punishable by up to two years imprisonment. Think of it as a heavy artillery strike against cyber criminals who dare cross the line.
+        
+        This law specifically targets 'restricted data' – data that's protected by an access control system associated with a computer’s function. It’s akin to fortifying your castle (your computer system) with high walls and watchtowers (access control systems), safeguarding your treasure (data).
+        
+        However, just like any war fought on multiple fronts, Australia also has state-based legislations addressing cyber crimes. An example being Part 6 of New South Wales’ Crimes Act 1900 (NSW) ('NSW Crimes Act'), which outlines offences related to unauthorized access or modification of restricted data and electronic communications.
+        
+        Think about it as having local garrisons stationed across different regions in addition to your central army – each equipped with its own set of rules but all working towards one common goal: protecting their territory from invaders.
+        
+        Now you might wonder why these laws carry such severe penalties? The answer comes from understanding the gravity of damage that can be inflicted through cyber crimes. It's not just about stealing or tampering with data. Cyber crimes can cripple businesses, disrupt essential services and even compromise national security.
+        
+        Consider the 2017 WannaCry ransomware attack that affected over 200,000 computers across 150 countries, causing billions of dollars in damages. Or closer to home, the Australian Red Cross Blood Service data breach in 2016 where personal details of over half a million blood donors were leaked.
+        
+        These incidents underscore the importance of robust cyber crime laws. They serve as our swords and shields on this digital battlefield - deterring potential hackers and ensuring justice for victims.
+        
+        However, laws alone aren't enough. We must also be vigilant soldiers on this battlefield - staying informed about the latest threats, implementing strong security measures and reporting any suspicious activities promptly.
+        
+        Remember, it's not just about protecting your own castle but also supporting your fellow warriors on this digital battleground. After all, in this war against cyber crime – we're all in it together!
+        
+        Best,
+        
+        Lawrie
+        
+        P.S: If you have any questions or need advice on how to better protect yourself from cyber threats, feel free to drop a comment below! Let’s learn from each other and fortify our defenses together.`,
         author: "Lawrie Student CSU - Master of Cyber Security",
         blogImg:
             "https://media.geeksforgeeks.org/img-practice/banner/google-test-series-thumbnail.png",

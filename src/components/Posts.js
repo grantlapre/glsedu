@@ -5,6 +5,8 @@ import cs1 from '../cs1.png';
 
 import bd1 from '../bd1.png';
 
+import cs5 from '../cs5.png';
+
 
 
 const Posts = () => {
@@ -12,7 +14,7 @@ const Posts = () => {
 
     const blogPosts = [
         {
-        title: "The Dark Side of Digital Age: Cyber Spying and Its Tools | January 23 2024",
+        title: "The Dark Side of Digital Age: Cyber Spying and Its Tools",
         body: ` 
 
         In the labyrinthine world of digital technology, where data is the new gold and safeguarding it is akin to a modern-day crusade, cyber spying has emerged as a chilling reality. This shadowy practice isn't just confined to rogue hackers in dimly lit basements; even governments and security companies are implicated, using sophisticated tools that blur the line between protection and invasion.
@@ -43,7 +45,7 @@ const Posts = () => {
             cs1,
         },
         {
-        title: "The Hidden Dangers of Backdoors in Computer Codes: A Deep Dive into Cybersecurity | January 24 2024",
+        title: "The Hidden Dangers of Backdoors in Computer Codes: A Deep Dive into Cybersecurity",
         body: `
 
         Every so often, a chilling question reverberates through the hushed corridors of the digital world, "How much can we trust the operating systems and applications that we use?" This is not an idle query. It's a vital concern that demands our attention. After all, we're living in an era where our lives are intricately woven with technology.
@@ -101,7 +103,7 @@ const Posts = () => {
         P.S: If you have any questions or need advice on how to better protect yourself from cyber threats, feel free to drop a comment below! Let’s learn from each other and fortify our defenses together.`,
         author: "Lawrie Student CSU - Master of Cyber Security",
         blogImg:
-            "https://media.geeksforgeeks.org/img-practice/banner/google-test-series-thumbnail.png",
+            cs5,
         },
         {
         title: "Computer Network",

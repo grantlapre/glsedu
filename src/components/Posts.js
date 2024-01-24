@@ -3,7 +3,7 @@ import "./Post.css";
 import Post from "./Post";
 import cs1 from '../cs1.png';
 
-import ff1 from '../ff1.png';
+import bd1 from '../bd1.png';
 
 
 
@@ -43,11 +43,32 @@ const Posts = () => {
             cs1,
         },
         {
-        title: "Data Structure ",
-        body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        title: "The Hidden Dangers of Backdoors in Computer Codes: A Deep Dive into Cybersecurity",
+        body: `
+
+        Every so often, a chilling question reverberates through the hushed corridors of the digital world, "How much can we trust the operating systems and applications that we use?" This is not an idle query. It's a vital concern that demands our attention. After all, we're living in an era where our lives are intricately woven with technology.
+        
+        Let's embark on this journey by acknowledging a harsh reality - all software systems contain security vulnerabilities and bugs. Yes, every single one of them! These hidden backdoors in computer codes can be exploited by cybercriminals to gain unauthorized access or disrupt services. It's like leaving your front door unlocked while you sleep, inviting unwanted guests into your home.
+        
+        Now imagine if there was a way to build software without these vulnerabilities? Enter formal methods in software engineering - our knight in shining armor! Formal methods provide mathematical proof of correctness for a system. This means no matter what inputs the system receives; it will always compute the right value. Think of it as building an impenetrable fortress around your data, ensuring its safety from external threats.
+        
+        In the past, mathematicians painstakingly performed this process manually on programs containing about 50 lines of code. But today’s complex systems boast millions of lines – making manual verification akin to finding a needle in a haystack!
+        
+        Thankfully, modern technology has provided us with powerful tools – computers capable of performing these proofs for us! However, only the most critical software currently undergoes formal methods because of their time-consuming nature and high costs involved. Examples include air transportation systems or process control systems where even minor errors could lead to catastrophic consequences.
+        
+        So here lies our predicament: We must accept the risk of security vulnerabilities and bugs and take steps to mitigate them accordingly. One effective strategy is regular patching – updating your software frequently to fix known vulnerabilities. It's like reinforcing the locks on your doors and windows to keep burglars at bay.
+        
+        Another essential tip is to adopt a multi-layered defense strategy, also known as 'defense in depth.' This approach involves using many security measures to protect information. If one layer fails, others are still in place to thwart an attack.
+        
+         while we can't eliminate all risks associated with backdoors in computer codes, we can certainly minimize them through smart strategies and vigilance. Remember, cybersecurity isn't just about protecting systems; it's about safeguarding our way of life in this digital age.
+        
+        Feel free to share your thoughts or experiences dealing with software vulnerabilities below. I look forward to hearing your insights!
+        
+        To your online safety,
+        `,
         author: "Lawrie Student CSU - Masters of Cyber Security",
         blogImg:
-            ff1,
+            bd1,
         },
         {
         title: "Algorithm",
